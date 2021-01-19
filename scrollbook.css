@@ -3,7 +3,7 @@
 
 body {
     margin: 0;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif; 
 }
 
 h1 {
@@ -17,17 +17,17 @@ section {
     height: 100vh;
     position: relative;
     box-sizing: border-box;
+}
 
-    /* blockquote {
-        font-size: 2em;
-        width: 30%;
-        margin-top: 17%;
-        position: absolute;
-    } */
+blockquote {
+    font-size: 2em;
+    width: 30%;
+    margin-top: 17%;
+    position: absolute;
 }
 
 .page1 {
-    background: black;
+    background: hotpink;
 }
 
 .aboutmepic {
