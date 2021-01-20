@@ -1,7 +1,7 @@
 const flightPath = { 
     curviness: 0, 
     autoRotate: true, 
-    values: [{ x: 100, y: -20 }, { x:300, y: 10}]
+    values: [{ x: 850 }]
 };
 
 const tween = new TimelineLite();
