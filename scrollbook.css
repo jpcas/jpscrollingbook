@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
     margin: 0;
@@ -7,9 +12,9 @@ body {
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 3.5vh;
     text-align: center;
-    margin-top: 30%;
+    margin-top: 25%;
 }
 
 section {
@@ -22,7 +27,7 @@ section {
 blockquote {
     font-size: 2em;
     width: 30%;
-    margin-top: 17%;
+    margin-top: 8%;
     position: absolute;
 }
 
@@ -56,23 +61,31 @@ img:nth-of-type(2) {
 }
 
 .aboutmepic {
-    height: 100px;
-    width: 100px;
-    size: 100px;
+    height: 100vh;
+    width: 100vh;
+    size: 100vh;
 }
 
 section:nth-child(odd) {
     background: gray;
 }
 
-/* .jpbike {
-    height: 100px;
-    width: 100px;
-    size: 100px;
-} */
-
-.titlehi {
-   text-align: left;
-   font-size: 500px;
-    
+.animation {
+    height: 100vh;
+    background-image: gray;
+    position: relative;
+    overflow: hidden;
 }
+
+.jpbikes {
+    height: 450px;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+}
+
+
+
+
+
+

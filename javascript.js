@@ -18,3 +18,20 @@
 //     t1.progress();
 //     console.log(t1.progress)
 // }
+
+const flightPath = { 
+    curviness: 0, 
+    autoRotate: true, 
+    values: [
+        {x: 100, y: -20}
+    ]
+}
+
+const tween = new TimelineLite();
+
+tween.add(
+    Tweenlite.to('.jpbikes', 1, {
+        bazier: flightPath, 
+        ease: Power1.easeInOut
+    })
+);
