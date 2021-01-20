@@ -64,3 +64,15 @@ img:nth-of-type(2) {
 section:nth-child(odd) {
     background: gray;
 }
+
+/* .jpbike {
+    height: 100px;
+    width: 100px;
+    size: 100px;
+} */
+
+.titlehi {
+   text-align: left;
+   font-size: 500px;
+    
+}
