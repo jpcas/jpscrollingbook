@@ -13,13 +13,25 @@ tween.add(
     })
 );
 
+tween.add(
+    TweenLite.to(".me-jp", 1, {
+        bezier: flightPath,
+        ease: Power1.easeInOut
+    })
+);
+
 const controller = new ScrollMagic.Controller();
 
 const scene = new ScrollMagic.Scene({
     triggerElement: '.animation', duration: 1000, triggerHook: 0
 })
 
+// const scene = new ScrollMagic.Scene({
+//     triggerElement: '.animation-jp', duration: 1000, triggerHook: 0
+// })
+
 .setTween(tween)
 .addIndicators()
-.setPin('.animation')
+.setPin('.animation', '.animation-jp')
+// .setPin('.animation-jp')
 .addTo(controller);

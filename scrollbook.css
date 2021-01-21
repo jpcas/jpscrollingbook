@@ -12,11 +12,12 @@ header, footer {
     justify-content: center;
     align-items: center;
     font-family: 'Josefin Sans', sans-serif;
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
 
 }
 
 header h1 {
-    font-size: 60px;
+    font-size: 45px;
 }
 
 .animation {
@@ -24,11 +25,32 @@ header h1 {
     background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
     position: relative;
     overflow: hidden;
+    font-size: 45px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+
+}
+
+.animation-jp {
+    height: 100vh;
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+    position: relative;
+    overflow: hidden;
+    font-size: 45px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+
 }
 
 .jp-bike {
     height: 450px;
     top: 50%;
     left: 0%;
-    
+
+}
+
+.me-jp {
+    height: 450px;
+    top: 50%;
+    left: 0%; 
 }
