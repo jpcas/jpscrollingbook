@@ -39,7 +39,10 @@ header h1 {
     font-size: 45px;
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
+}
 
+.aboutmep {
+    font-size: 25px;
 }
 
 .jp-bike {
@@ -54,3 +57,49 @@ header h1 {
     top: 50%;
     left: 0%; 
 }
+
+.animation-projects {
+    height: 100vh;
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+    position: relative;
+    overflow: hidden;
+    font-size: 45px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+
+.animation-aboutme {
+    height: 100vh;
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+    position: relative;
+    overflow: hidden;
+    font-size: 45px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+
+.animation-comment {
+    height: 110vh;
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+    position: relative;
+    overflow: hidden;
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+
+.brewp {
+    font-size: 23px;
+}
+
+  
+  .item {
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    padding-top: 75px;
+    background: #ccc;
+    text-align: center;
+    color: #FFF;
+    font-size: 3em;
+  }
